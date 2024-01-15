@@ -5,13 +5,13 @@ class Config(object):
     API_ID = 14920143
     API_HASH = "5a316e55fb121d9b5e891b5ff07d4677"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "U6Z2DE9I2ZRT4E2A"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://ymiitban:qOoRlw3gILCP2hAcJvks0DLw1ODidX98@drona.db.elephantsql.com/ymiitban"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1002128110291)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://AbingRobot:garing225@abingrobot.t047arw.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://telegra.ph/file/23896028168d6e96f9255.jpg"
