@@ -11,7 +11,7 @@ Abing = "Abing"
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=Anonymous)
+r = telegraph.create_account(short_name=Abing)
 auth_url = r["auth_url"]
 
 
